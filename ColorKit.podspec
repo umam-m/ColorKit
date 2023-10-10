@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '12.2'
     s.requires_arc = true
   
-    s.source_files = 'ColorKit/ColorKit/*.swift'
+    s.source_files = 'ColorKit/ColorKit/**/*.swift'
   
   end
