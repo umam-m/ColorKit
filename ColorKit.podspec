@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.author           = { "Boris-Em" => "https://github.com/Boris-Em/ColorKit" }
     s.source           = { :git => "https://github.com/Boris-Em/ColorKit", :tag => s.version }
   
-    s.ios.deployment_target = '13.0'
+    s.ios.deployment_target = '13.2'
     s.requires_arc = true
   
     s.source_files = 'ColorKit/ColorKit/*.swift'
